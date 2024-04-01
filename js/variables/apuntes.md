@@ -12,3 +12,6 @@ Comprueba si dos valores son iguales y son del mismo tipo
 ```sh
   '10' === 5 // false
 ```
+
+
+
