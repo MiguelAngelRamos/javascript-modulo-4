@@ -3,7 +3,7 @@
 let fechaNacimiento = prompt("Ingrese la fecha de nacimiento (formato AAAA-MM-DD)");
 
 let fechaNacimientoDate = new Date(fechaNacimiento);
-
+console.log(fechaNacimientoDate);
 // Obtener la fecha actual
 let fechaActual = new Date();
 
@@ -16,3 +16,18 @@ if(edad >= 18) {
 } else {
   alert("Lamentablemente eres menor de edad, aun no puedes ver la peli")
 }
+
+
+
+//* Ficha de Usuario
+
+/**
+ * nombre
+ * apellido
+ * profesion
+ * cuidad
+ * nacionalidad
+ * fecha de nacimiento
+ * estado civil
+ * 
+ */
