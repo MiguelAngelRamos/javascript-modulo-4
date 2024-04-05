@@ -25,11 +25,12 @@ console.log(persona.isActive); // true
 console.log(persona.redesSociales.instagram);
 console.log(persona.redesSociales.instagram.enlace);
 console.log(persona.redesSociales.instagram.nombreUsuario);
-console.log(persona.redesSociales.instagram.nombreUsuario);
+
 
 // Destructuring 
 const {enlace: enlaceInstagram, nombreUsuario:userInstagram} = persona.redesSociales.instagram;
 console.log(`Este es el nombre de usuario de Sofia: ${userInstagram}`);
+console.log(`Este es enlance de instagram de Sofia: ${enlaceInstagram}`);
 //* Como obtener mediante Destructuring el nombre de usuario de sofia de youtube
 //??? Como el destructuring para acceder al nombre de usuario de youtube de sofia de manera que lo pueda imprirmir directamente con este console.log
 const {enlace: enlanceYt, nombreUsuario: userYt} = persona.redesSociales.youtube;
