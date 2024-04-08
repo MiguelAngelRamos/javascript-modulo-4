@@ -17,24 +17,29 @@ const persona = {
     }
   }
 }
+
 console.log(persona.nombre); // Sofia
 console.log(persona.edad); // 27
 console.log(persona.lenguajesFavoritos); // array
 console.log(persona.profesion); // ing de software
 console.log(persona.isActive); // true
-console.log(persona.redesSociales.instagram);
+console.log(persona.redesSociales.instagram); // todo el objeto de instagram
 console.log(persona.redesSociales.instagram.enlace);
 console.log(persona.redesSociales.instagram.nombreUsuario);
 
 
 // Destructuring 
 const {enlace: enlaceInstagram, nombreUsuario:userInstagram} = persona.redesSociales.instagram;
+
 console.log(`Este es el nombre de usuario de Sofia: ${userInstagram}`);
 console.log(`Este es enlance de instagram de Sofia: ${enlaceInstagram}`);
 //* Como obtener mediante Destructuring el nombre de usuario de sofia de youtube
 //??? Como el destructuring para acceder al nombre de usuario de youtube de sofia de manera que lo pueda imprirmir directamente con este console.log
+
 const {enlace: enlanceYt, nombreUsuario: userYt} = persona.redesSociales.youtube;
+
 console.log(`Este es el nombre de usuario de sofia de youtube: ${userYt}`);
+
 //* ¿Se podria desestructurar un solo valor?, Si se puede como se hace entonces?
 const { redesSociales: { instagram: {nombreUsuario}}} = persona;
 console.log(`Este es el nombre de Sofia de instagram, se accedio directamente a el: ${nombreUsuario}`);

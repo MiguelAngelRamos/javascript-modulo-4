@@ -1,4 +1,4 @@
-//* El método reduce es acumulador, es decir toma una cantidad de datos y nos retorna el resultado acumulado.
+//* El método "reduce es un metodo de array" que se comporta como un acumulador, es decir toma una cantidad de datos y nos retorna el resultado acumulado.
 
 const carrito = [
   { nombreProducto: 'Iphone 15 pro max', precio: 1700000 },
@@ -7,9 +7,17 @@ const carrito = [
   { nombreProducto: 'Monitor Gamer MSI', precio: 480000 },
 ];
 
-
-const totalDeVenta = carrito.reduce((total, producto) => {
-  return total + producto.precio
+//* el resultado acumulado lo vamos a guardar en "totalDeVenta"
+const totalDeVenta = carrito.reduce((totalAcumulado, producto) => {
+  return totalAcumulado + producto.precio
 }, 0);
 
 console.log(Intl.NumberFormat().format(totalDeVenta));
+
+//* Array = []
+//* metodoArray -> map
+//* metodoArray -> reduce
+//* () => {} "callback"
+Array.metodoArray((elemento) => {
+
+})

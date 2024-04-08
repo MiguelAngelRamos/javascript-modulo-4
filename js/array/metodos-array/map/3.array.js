@@ -5,6 +5,9 @@ const carrito = [
   { nombreProducto: 'Monitor Gamer MSI', precio: 480000 },
 ];
 
+//* [] array
+//* {} objeto
+
 //* Cual es utilidad de aplicar el map en esta situación
 
 const resultadoMap = carrito.map(producto => {
@@ -13,3 +16,10 @@ const resultadoMap = carrito.map(producto => {
 });
 
 console.log(resultadoMap);
+
+// resultadoMap = [
+//   'EL producto : Iphone 15 pro max, tiene un precio de $ 1.700.000',
+//   'EL producto : Notebook Gamer Asus, tiene un precio de $ 1.800.000',
+//   'EL producto : Teclado Gamer Razer, tiene un precio de $ 80.000',
+//   'EL producto : Monitor Gamer MSI, tiene un precio de $ 480.000'
+// ]

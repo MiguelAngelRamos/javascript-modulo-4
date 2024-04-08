@@ -20,7 +20,7 @@ const resultadoMultiplicado = numeros.map(elemento => {
 });
 console.log(resultadoMultiplicado);
 
-//* Del arreglo multiplicar 5 todos los divisibles por 3 
+//* Del arreglo multiplicar 5 todos los divisibles por 3
 const resultadoMultiplicadoDivibles3 = numeros.map(elemento => {
   if(elemento%3==0){
     return elemento*5
@@ -39,6 +39,7 @@ const nombres = ["Sofia", "Catalina", "Richard"];
 
 const nombresTexto = nombres.map(elemento => `${elemento} - Ing. de Software`)
 
+//* nombresTexto = ["Sofia - Ing. de Software ", "Catalina - Ing. de Software", "Richard - Ing. de Software"];
 console.log(nombresTexto);
 
 
