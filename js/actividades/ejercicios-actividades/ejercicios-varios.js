@@ -21,4 +21,4 @@ console.log(crearArregloDoble(5));
 const numeros = [1,2,10,22];
 const otroArregloNumeros = [...numeros]; //* creo un nuevo con todos los valores dle arreglo "numeros"
 console.log(Math.max(...numeros)) // el valor maximo
-console.log(Math.min(...numeros)) // el valor minimo
+//* console.log(Math.min(...numeros)) // el valor minimo
